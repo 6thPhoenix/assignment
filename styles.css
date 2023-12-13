@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-size:13px ;
+    background-color:hsl(210, 46%, 95%);
+    width: 100vw;
+    height: 100vh;
+    font-family: manrope,sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+h2 {
+    color: hsl(214, 17%, 51%);
+    font-size: 14px;
+    margin: 0;
+
+}
+h1 {
+    color: hsl(217, 19%, 35%);
+    width: 420px;
+    font-size: 25px;
+    line-height: 30px;
+}
+p {
+    color: hsl(212, 23%, 69%);
+    width: 350px;
+line-height: 20px;
+}
+span p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.paragraph {
+    padding: 25px;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 0 10px 10px 0 ;
+}
+span{
+    margin-left: 20px;
+}
+.click {
+    display: flex;
+}
+.Michelle {
+    border-radius: 175px;
+    height: 50px;
+}
+.adjust {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
